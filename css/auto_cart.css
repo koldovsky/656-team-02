@@ -2,9 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 15%;
-    margin-right: 15%;
     flex-wrap: wrap;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 .auto_card {
     text-align:  center;
@@ -12,6 +12,7 @@
     flex-direction: column;
     align-items: center;
     background-color:  #FFFFFF;
+    border-radius: 10px;
     width: 350px;
     height: 500px;
     margin: 20px;  
@@ -30,7 +31,7 @@
 }
 .car_description {
     font-size: 17px;
-    color: #898989;
+    color: var(--main-gray);
     line-height: 1.5em;
     margin: 20px;
 }
@@ -39,8 +40,8 @@
     font-size: 16.5px;
     font-weight: 700;
     color: #FFFFFF;
-    background-color: var(--header_color);
-    border: 1.5px solid var(--header_color);
+    background-color: var(--top-heading-color);
+    border: 1.5px solid var(--top-heading-color);
     padding: 15px 30px;
     border-radius: 30px;
     margin-right: 2%;
