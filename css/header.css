@@ -1,5 +1,33 @@
+.subheader {
+    display: flex;
+    justify-content: space-between;
 
-.social_icon {
+}
+.img_logo_style {
+    width: 97px;
+    height: auto;
+}
+.navigation_icons {
+    display: flex;
+    flex-direction: row;
+}
+.navigation {
+    padding: 10px 17px;
+
+}
+.navigation_list {
+    text-decoration: none;
+    color: #222;
+}
+
+
+
+.social_icons {
+    display: flex;
+    flex-direction: row;
+}
+.social_icon,
+.learn_more_icon_style {
     width: 30px;
     height: 30px;
     padding: 2px;
