@@ -1,0 +1,29 @@
+.about-company {
+    display: flex;
+    background-image: ;
+}
+.top {
+    font-family: Ubuntu, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #f6c43d!important;    
+}
+.about-us {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #222;
+}
+.slogan {
+    font-family: Ubuntu, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color:#222 ;
+}
+.offers {
+    font-family: Ubuntu, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color:#898989;
+}
+.contact
