@@ -49,25 +49,27 @@
 .main_text {
     margin-left: 20%;
     margin-right: 20%;
-    max-width: 50vw;
+    max-width: 30vw;
 }
 .text {
     font-size: 18px;
     font-weight: 700;
-    margin-top: 23vh;
+    margin-top: 30vh;
 }
 .blue_text {
     color: var(--blue_color);
 }
-h1 {
+.header_title {
     color: var(--header_color);
     font-size: 200px;
-    font-family: "Barlow+Condensed", sans-serif;
+    line-height: 1em;
+    font-family: "Barlow Condensed", sans-serif;
 }
 .header_menu_btn {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 40px;
 }
 .header_button_learn_more,
 .header_button_price {

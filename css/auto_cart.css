@@ -1,0 +1,47 @@
+.auto_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    flex-wrap: wrap;
+}
+.auto_card {
+    text-align:  center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  #FFFFFF;
+    width: 350px;
+    height: 500px;
+    margin: 20px;  
+}
+.photo_auto_card {
+    height: 180px;
+    width: auto;
+    margin-top: 20px;
+}
+.cart_title {
+    font-family: "Barlow Condensed", sans-serif;
+    color: #222222;
+    font-size: 34px;
+    font-weight: 700;
+    margin: 30px;
+}
+.car_description {
+    font-size: 17px;
+    color: #898989;
+    line-height: 1.5em;
+    margin: 20px;
+}
+.cart_button {
+    text-decoration: none;
+    font-size: 16.5px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: var(--header_color);
+    border: 1.5px solid var(--header_color);
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-right: 2%;
+}
