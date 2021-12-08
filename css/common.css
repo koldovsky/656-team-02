@@ -3,11 +3,16 @@
 * {
     padding: 0;
     margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 :root {
     font-family: Ubuntu, monospase;
-    --header_color: #f6c43d;
-    --blue_color: #1088e4;
+    --top-heading-color: rgb(246, 196, 61);
+    --main-blue: rgb(16, 136, 228);
+    --main-white: rgb(255, 255, 255);
+    --main-black: rgb(34, 34, 34);
+    --main-gray: rgb(137, 137, 137); /* text description*/
 }
 img {
     display: block;
