@@ -1,6 +1,12 @@
 .about-company {
     display: flex;
     background-image: ;
+    text-align: left;
+    flex-direction: column;
+    position: relative;
+    min-width: 318px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 .top {
     font-family: Ubuntu, sans-serif;
