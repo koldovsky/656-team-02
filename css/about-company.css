@@ -1,41 +1,69 @@
 .about-company {
     display: flex;
-    background-image: ;
+    background-image: url("/img/background-about_us.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: left;
     flex-direction: column;
     position: relative;
     min-width: 318px;
-    padding-top: 90px;
+    padding-top: 60px;
     padding-bottom: 90px;
 }
-.top {
+.about-company_top {
     font-family: Ubuntu, sans-serif;
     font-size: 14px;
     font-weight: 700;
-    color: #f6c43d!important; 
+    color: #f6c43d; 
+    margin-bottom: 30px;
+    margin-left: 25px;
+    
 }
 .about-us {
     font-family: "Barlow Condensed", sans-serif;
     font-size: 40px;
     font-weight: 700;
     color: #222;
+    margin-left: 25px;
+    margin-bottom: 20px;
 }
 .slogan {
     font-family: Ubuntu, sans-serif;
     font-size: 18px;
     font-weight: 700;
     color:#222;
+    margin-left: 25px;
+    margin-bottom: 30px;
 }
 .offers {
     font-family: Ubuntu, sans-serif;
     font-size: 17px;
     font-weight: 400;
     color:#898989;
+    margin-left: 25px;
+    margin-bottom: 80px;
+}
+.offers-p_first {
+    margin-bottom: 30px; 
 }
 .contact_buttom {
     font-family: Ubuntu, sans-serif;
     font-size: 16,5px;
     font-weight: 700;
     color: #fff;
+    background-color: var(--top-heading-color);
+    padding: 15px ;
+    border-radius: 30px;
+    margin-left: 25px;
+    margin-right: 500px;
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+    text-decoration: none;
+    text-align: center;
+    background-position: 50%;
+    overflow: visible;
+    cursor: pointer;
+
 }
 
