@@ -1,10 +1,10 @@
 .header {
-    max-width: 100vmax;
+    max-height: 500px;
+    width: auto;
     height: auto;
     background: url("../img/background_img.png");
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
     background-position-x: 50%;
 }
 .header_subheader {
@@ -17,7 +17,7 @@
 }
 @media (min-width: 400px) {
     .header_subheader {
-        padding: 30px 15px;
+        padding: 20px 15px;
         margin-left: 10%;
         margin-right: 10%;
     }
@@ -28,16 +28,32 @@
 }
 .subheader_navigation_icons {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     box-sizing: border-box;
 }
+@media (min-width: 400px) {
+    .subheader_navigation_icons {
+        flex-direction: row;
+        align-items: center;
+        box-sizing: border-box;
+    }
+}
 .subheader_navigation {
-    padding: 10px 10px;
+    padding: 5px 5px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
 }
+@media (min-width: 400px) {
+    .subheader_navigation {
+        padding: 10px 10px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
 .subheader_navigation_list {
     text-decoration: none;
     color: var(--main-black);
@@ -76,8 +92,8 @@
 }
 .header_title {
     color: var(--top-heading-color);
-    font-size: 190px;
-    line-height: 1em;
+    font-size: 150px;
+    line-height: 0.9em;
     font-family: "Barlow Condensed", sans-serif;
     margin-bottom: 50px;
 }
