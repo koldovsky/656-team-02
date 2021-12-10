@@ -8,7 +8,7 @@
     position: relative;
     padding-top: 60px;
     padding-bottom: 140px;
-    max-width: 1920px;
+    max-width: 1600px;
     min-width: 320px;
 }
 .about-company_top {
@@ -22,7 +22,7 @@
 }
 .about-us {
     font-family: "Barlow Condensed", sans-serif;
-    font-size: 40px;
+    font-size: 65px;
     font-weight: 700;
     color: #222;
     margin-left: 25px;
@@ -41,7 +41,6 @@
     color:#898989;
     margin-left: 25px;
     margin-bottom: 80px;
-    max-width: 600px;
     inline-size: 285px;
 }
 .offers-p_first {
