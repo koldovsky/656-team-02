@@ -7,7 +7,7 @@
     flex-direction: column;
     position: relative;
     padding-top: 60px;
-    padding-bottom: 90px;
+    padding-bottom: 140px;
     max-width: 1920px;
     min-width: 320px;
 }
@@ -53,18 +53,18 @@
     font-size: 16,5px;
     font-weight: 700;
     color: #fff;
-    background-color: var(--top-heading-color);
-    padding: 15px ;
+    font-stretch: 100%;
+    background-color: var(--main-blue);
+    padding: 15px 15px ;
     border-radius: 30px;
     margin-left: 25px;
-    display: inline-block;
     position: relative;
-    width: 200px;
-    height: 60 px;
-    text-decoration: none;
+    width: 170px;
     text-align: center;
-    overflow: visible;
-    cursor: pointer;
-
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.contact_buttom:hover {
+    background-color: var(--top-heading-color); 
 }
 
