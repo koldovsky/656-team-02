@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 15px;
+    padding: 30px 15px;
     max-width: 1200px;
     margin-left: 10%;
     margin-right: 10%;
@@ -29,12 +29,18 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-sizing: border-box;
 }
 .subheader_navigation_list {
     text-decoration: none;
-    color: #222;
+    color: var(--main-black);
     padding: 0px 10px;
+    font-size: inherit;
+    font-weight: 500;
+}
+.subheader_navigation_list:hover {
+    color: var(--top-heading-color);
+    text-decoration: underline;
+    
 }
 .subheader_social_icons {
     display: flex;
@@ -42,8 +48,8 @@
 }
 .subheader_social_icon,
 .subheader_learn_more_icon_style {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     padding: 5px;
 }
 .subheader_main_text {
@@ -80,7 +86,7 @@
     font-weight: 700;
 }
 .header_button_learn_more {
-    color: #FFFFFF;
+    color: var(--main-white);
     background-color: var(--main-blue);
     border: 1.5px solid var(--main-blue);
     padding: 15px 30px;
@@ -93,4 +99,7 @@
 }
 .header_button_price {
     color: var(--top-heading-color);
+}
+.header_button_price:hover {
+text-decoration: underline;
 }
