@@ -1,14 +1,16 @@
 .about-company {
     display: flex;
-    background-image: url("img/background-about_us.png");
+    background-image: url(../img/background-about_us_1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: left;
+    margin-left: 170px;
+    
+    
     flex-direction: column;
     position: relative;
     padding-top: 60px;
     padding-bottom: 140px;
-    max-width: 1600px;
+    max-width: 1920px;
     min-width: 320px;
 }
 .about-company_top {
@@ -17,7 +19,7 @@
     font-weight: 700;
     color: #f6c43d; 
     margin-bottom: 30px;
-    margin-left: 25px;
+    margin-left: 20px;
     
 }
 .about-us {
@@ -25,23 +27,23 @@
     font-size: 65px;
     font-weight: 700;
     color: #222;
-    margin-left: 25px;
+    margin-left: 20px;
     margin-bottom: 20px;
 }
 .slogan {
     font-size: 18px;
     font-weight: 700;
     color:#222;
-    margin-left: 25px;
+    margin-left: 20px;
     margin-bottom: 30px;
 }
 .offers {
     font-size: 17px;
     font-weight: 400;
     color:#898989;
-    margin-left: 25px;
-    margin-bottom: 80px;
-    inline-size: 285px;
+    margin-left: 20px;
+    margin-bottom: 120px;
+    inline-size: 650px;
 }
 .offers-p_first {
     margin-bottom: 30px; 
@@ -54,7 +56,7 @@
     background-color: var(--main-blue);
     padding: 15px 15px ;
     border-radius: 30px;
-    margin-left: 25px;
+    margin-left: 20px;
     position: relative;
     width: 170px;
     text-align: center;
