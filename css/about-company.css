@@ -1,14 +1,14 @@
 .about-company {
     display: flex;
-    background-image: url("/img/background-about_us.png");
+    background-image: url("img/background-about_us.png");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: left;
     flex-direction: column;
     position: relative;
-    min-width: 318px;
     padding-top: 60px;
     padding-bottom: 90px;
+    max-width: 1920px;
 }
 .about-company_top {
     font-family: Ubuntu, sans-serif;
@@ -42,6 +42,7 @@
     color:#898989;
     margin-left: 25px;
     margin-bottom: 80px;
+    width: 400px;
 }
 .offers-p_first {
     margin-bottom: 30px; 
@@ -55,13 +56,12 @@
     padding: 15px ;
     border-radius: 30px;
     margin-left: 25px;
-    margin-right: 500px;
     display: inline-block;
     position: relative;
-    max-width: 100%;
+    width: 150px;
+    height: 60 px;
     text-decoration: none;
     text-align: center;
-    background-position: 50%;
     overflow: visible;
     cursor: pointer;
 
