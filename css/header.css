@@ -14,29 +14,29 @@
     margin-left: 10%;
     margin-right: 10%;
 }
-.img_logo_style {
+.subheader_img_logo_style {
     width: 97px;
     height: auto;
 }
-.navigation_icons {
+.subheader_navigation_icons {
     display: flex;
     flex-direction: row;
     align-items: center;
     box-sizing: border-box;
 }
-.navigation {
+.subheader_navigation {
     padding: 10px 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     box-sizing: border-box;
 }
-.navigation_list {
+.subheader_navigation_list {
     text-decoration: none;
     color: #222;
     padding: 0px 10px;
 }
-.social_icons {
+.subheader_social_icons {
     display: flex;
     flex-direction: row;
 }
