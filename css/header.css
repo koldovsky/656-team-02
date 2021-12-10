@@ -1,18 +1,26 @@
 .header {
     max-width: 100vmax;
     height: auto;
-    background: url("/img/background.png");
+    background: url("../img/background_img.png");
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    background-position-x: 50%;
 }
 .header_subheader {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 15px;
-    max-width: 1200px;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding: 15px 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+@media (min-width: 400px) {
+    .header_subheader {
+        padding: 30px 15px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
 .subheader_img_logo_style {
     width: 97px;
