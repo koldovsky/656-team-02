@@ -3,11 +3,11 @@
     background-image: url(../img/background-about_us_1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 170px;
-    
-    
-    flex-direction: column;
+    background-position-x: 70%;
+    background-position-y: 50%;
     position: relative;
+    margin: auto;    
+    flex-direction: column;
     padding-top: 60px;
     padding-bottom: 140px;
     max-width: 1920px;
@@ -19,7 +19,8 @@
     font-weight: 700;
     color: #f6c43d; 
     margin-bottom: 30px;
-    margin-left: 20px;
+    margin-left: 130px;
+    position: relative;
     
 }
 .about-us {
@@ -27,23 +28,26 @@
     font-size: 65px;
     font-weight: 700;
     color: #222;
-    margin-left: 20px;
+    margin-left: 130px;
     margin-bottom: 20px;
+    position: relative;
 }
 .slogan {
     font-size: 18px;
     font-weight: 700;
     color:#222;
-    margin-left: 20px;
+    margin-left: 130px;
     margin-bottom: 30px;
+    position: relative;
 }
 .offers {
     font-size: 17px;
     font-weight: 400;
     color:#898989;
-    margin-left: 20px;
+    margin-left: 130px;
     margin-bottom: 120px;
-    inline-size: 650px;
+    max-width: 650px;
+    position: relative;
 }
 .offers-p_first {
     margin-bottom: 30px; 
@@ -56,7 +60,7 @@
     background-color: var(--main-blue);
     padding: 15px 15px ;
     border-radius: 30px;
-    margin-left: 20px;
+    margin-left: 130px;
     position: relative;
     width: 170px;
     text-align: center;
