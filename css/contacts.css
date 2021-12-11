@@ -1,4 +1,4 @@
-.Contacts_maps{
+.contacts_maps{
     display: flex;
     background-color: azure;
     background-repeat: no-repeat;
@@ -14,13 +14,27 @@
     min-width: 200px;
 
 }
-.Fastcar{
+.main_contacts{
+    background: #FFFFFF;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    padding-bottom: 20px;
+   
+  }
+.fastcar{
     text-align: center;
     font-weight: 700;
     font-size: inherit;
     color: #f6c43d!important;
 }
-.Contacts{
+.contacts{
     font-size: 65px;
     color: #222;
     line-height: 1;
@@ -30,7 +44,41 @@
     text-decoration: none;
     font-style: normal;
 }
-.Buttom-car{
+.street{
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: Ubuntu,sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: -.022em;
+    color: #898989;
+    text-transform: none;
+    text-align: center;
+}
+.phone {
+    text-align: center;
+}
+.ui-link{
+    color: #f6c43d;
+}
+
+.social_icons_contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+    
+}
+@media (min-width: 40px) {
+    .social_icons_contacts {
+        padding: 20px 15px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+.buttom-car{
     text-decoration: none;
     color: var(--main-white);
     background-color: var(--top-heading-color);
@@ -47,7 +95,7 @@
     transition: color 0.3s;
 }
 
-.Buttom-car:hover {
+.buttom-car:hover {
     background-color: var(--main-blue);
     border: 1.5px solid var(--main-blue);
 }
