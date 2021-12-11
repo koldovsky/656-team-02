@@ -1,0 +1,53 @@
+.Contacts_maps{
+    display: flex;
+    background-color: azure;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 100px;
+    
+    
+    flex-direction: column;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 440px;
+    max-width: 1000px;
+    min-width: 200px;
+
+}
+.Fastcar{
+    text-align: center;
+    font-weight: 700;
+    font-size: inherit;
+    color: #f6c43d!important;
+}
+.Contacts{
+    font-size: 65px;
+    color: #222;
+    line-height: 1;
+    font-family: Barlow Condensed,sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+}
+.Buttom-car{
+    text-decoration: none;
+    color: var(--main-white);
+    background-color: var(--top-heading-color);
+    border: 1.5px solid var(--top-heading-color);
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-right: 2%;
+    border-radius: 30px;
+    margin-left: 20px;
+    position: relative;
+    width: 170px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.Buttom-car:hover {
+    background-color: var(--main-blue);
+    border: 1.5px solid var(--main-blue);
+}
