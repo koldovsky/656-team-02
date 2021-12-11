@@ -3,18 +3,30 @@
     background-color: azure;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 100px;
-    
-    
     flex-direction: column;
     position: relative;
     padding-top: 60px;
-    padding-bottom: 440px;
-    max-width: 1000px;
-    min-width: 200px;
+    padding-bottom: 200px;
+    max-width: 100%;
+    min-width: 20%;
+
+}
+.main_contacts-bacground{
+    display: flex;
+ 
+    flex-direction: column;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 200px;
+    max-width: 50%;
+    min-width: 20%;
+    vertical-align: baseline;
+    -webkit-font-smoothing: antialiased;
+
 
 }
 .main_contacts{
+    margin-left: 100px;
     background: #FFFFFF;
     background-image: initial;
     background-position-x: initial;
