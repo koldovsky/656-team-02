@@ -1,82 +1,164 @@
 .experience-section {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /*padding: 50px 24px 90px;*/
+}
+.experience-section__top-heading {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  text-align: center;
+  grid-gap: 15px;
+  font-size: 17px;
+  font-weight: 400;
+  align-items: center;
+  line-height: 27.54px;
+}
+.experience-section__top-heading-name {
+  color: var(--top-heading-color);
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+.experience-section__top-heading-title {
+  color: var(--main-black);
+  font-size: 65px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.experience-section__top-heading-description {
+  color: var(--main-gray);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 30px;
+}
+.experience-section__description-first,
+.experience-section__description-second,
+.experience-section__description-third,
+.experience-section__description-forth {
+  border: 1px transparent;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3%;
+  margin-bottom: 30px;
+}
+.experience-section__description-first,
+.experience-section__description-third {
+  background-color: rgb(2, 2, 4);
+}
+.experience-section__description-second {
+  background-color: rgb(252, 252, 252);
+}
+.experience-section__description-forth {
+  background-color: rgb(221, 226, 233);
+}
+.experience-section__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 10% 15px 10%;
+}
+
+.experience-section__description-first-image,
+.experience-section__description-second-image,
+.experience-section__description-third-image,
+.experience-section__description-forth-image {
+  width: 100%;
+  height: 100%;
+  min-height: 350px;
+  background-size: cover;
+}
+.experience-section__description-first-image {
+  background-image: url(../img/heading-photo_display.webp);
+  background-position: 100% 50%;
+}
+.experience-section__description-second-image {
+  background-image: url(../img/heading-photo_blue-tesla.webp);
+  background-position: 73.548% 53.858%;
+}
+.experience-section__description-third-image {
+  background-image: url(../img/heading-photo_tesla-interior.webp);
+  background-position: 28.418% 50%;
+}
+.experience-section__description-forth-image {
+  background-image: url(../img/heading-photo_tesla-wing-doors.webp);
+  background-position: 40.322% 50%;
+}
+.experience-section__description-text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 60px;
+  text-align: left;
+}
+.experience-section__description-text-block-date-white {
+  word-break: break-all;
+  color: var(--main-white);
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+}
+.experience-section__description-text-block-date-black {
+  word-break: break-all;
+  color: var(--main-black);
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+}
+.experience-section__description-text-block-divider-yellow,
+.experience-section__description-text-block-divider-blue {
+  justify-content: start;
+  height: 3px;
+  width: 11%;
+  margin: 5px 0px;
+  position: relative;
+  text-align: left;
+  background-color: var(--top-heading-color);
+}
+.experience-section__description-text-block-divider-blue {
+  background-color: var(--main-blue);
+}
+.experience-section__description-text-block-text {
+  color: var(--main-gray);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 17px;
+  text-align: left;
+  line-height: 27.54px;
+}
+
+@media (max-width: 768px) {
+  .experience-section__top-heading-title {
+    font-size: 40px;
   }
-  .exprerience-section__top-heading-name {
-    color: var(--top-heading-color);
-    font-size: 14px;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-  }
-  .exprerience-section__top-heading-title {
-    color: var(--main-black);
-    font-size: 65px;
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 700;
-    margin-top: 25px;
-  }
-  .exprerience-section__top-heading-description {
-    color: var(--main-gray);
-    font-family: "Ubuntu", sans-serif;
-    font-size: 20px;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 25px;
-  }
-  .experience-section__description-first {
-    background-color: rgb(2, 2, 4);
-    display: flex;
-    flex-direction: row;
+  .experience-section__top-heading-description {
+    margin-left: 8%;
+    margin-right: 8%;
   }
   .experience-section__container {
+    margin: 15px 5% 15px 5%;
+  }
+  .experience-section__description-first,
+  .experience-section__description-second,
+  .experience-section__description-third,
+  .experience-section__description-forth {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    margin: 15px 10% 15px 10%;
-  }
-  .experience-section__description-image {
-    margin: 2%;
-  }
-  .experience-section__description-second {
-    background-color: rgb(252, 252, 252);
-    display: flex;
-    flex-direction: row;
-  }
-  .experience-section__description-third {
-    background-color: rgb(2, 2, 4);
-    display: flex;
-    flex-direction: row;
-  }
-  .experience-section__description-forth {
-    background-color: rgb(221, 226, 233);
-    display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    padding: 10%;
   }
   .experience-section__description-text-block {
-    display: flex;
-    flex-direction: column;
-    padding: 3%;
+    padding: 15%;
   }
-  
-  .experience-section__description-text-block-date-white {
-    color: var(--main-white);
-    font-family: "Barlow Condensed", sans-serif;
-    font-size: 90px;
-    font-weight: 700;
+}
+@media (max-width: 1024px) {
+  .experience-section__top-heading-title {
+    font-size: 52px;
   }
-  .experience-section__description-text-block-date-black {
-    color: var(--main-black);
-    font-family: "Barlow Condensed", sans-serif;
-    font-size: 90px;
-    font-weight: 700;
-  }
-  .experience-section__description-text-block-text {
-    color: var(--main-gray);
-    font-family: "Ubuntu", sans-serif;
-    font-size: 17px;
-    text-align: left;
-    line-height: 27.54px;
-  }
-  
+}
