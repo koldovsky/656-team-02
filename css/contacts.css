@@ -1,32 +1,59 @@
 .contacts_maps{
     display: flex;
-    background-color: azure;
+    background-color:rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
     position: relative;
-    padding-top: 60px;
-    padding-bottom: 200px;
     max-width: 100%;
     min-width: 20%;
-
 }
-.main_contacts-bacground{
+
+.maps-section{
     display: flex;
- 
+    z-index: 3;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-left: 50%;
+}
+
+.main_contacts-bacground{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 0;
+    border-radius: inherit;
+    -webkit-transition: opacity .3s ease-out;
+    transition: opacity .3s ease-out;
+    border-radius: 20px;
+    width: 70%;
+    height: 400px;
+    margin:  50 auto;
+    background: repeating-linear-gradient(
+      45deg,
+      yellow 0px,
+      yellow 40px,
+      black 40px,
+      black 80px);
+    
+    display: flex;
     flex-direction: column;
     position: relative;
-    padding-top: 60px;
-    padding-bottom: 200px;
+    padding-top: 100px;
+    padding-bottom: 400px;
     max-width: 50%;
     min-width: 20%;
     vertical-align: baseline;
     -webkit-font-smoothing: antialiased;
-
-
 }
+
 .main_contacts{
-    margin-left: 100px;
+    position: absolute;
+    margin-left: 25%;
     background: #FFFFFF;
     background-image: initial;
     background-position-x: initial;
@@ -36,16 +63,15 @@
     background-origin: initial;
     background-clip: initial;
     background-color: rgb(255, 255, 255);
-    position: absolute;
-    padding-bottom: 20px;
-   
-  }
+    }
+
 .fastcar{
     text-align: center;
     font-weight: 700;
     font-size: inherit;
     color: #f6c43d!important;
 }
+
 .contacts{
     font-size: 65px;
     color: #222;
@@ -56,6 +82,7 @@
     text-decoration: none;
     font-style: normal;
 }
+
 .street{
     font-size: 20px;
     line-height: 1.5;
@@ -68,9 +95,11 @@
     text-transform: none;
     text-align: center;
 }
+
 .phone {
     text-align: center;
 }
+
 .ui-link{
     color: #f6c43d;
 }
@@ -79,16 +108,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    
-    
 }
+
 @media (min-width: 40px) {
     .social_icons_contacts {
         padding: 20px 15px;
         margin-left: 10%;
         margin-right: 10%;
     }
+}
     
 .buttom-car{
     text-decoration: none;
@@ -99,7 +127,7 @@
     border-radius: 30px;
     margin-right: 2%;
     border-radius: 30px;
-    margin-left: 20px;
+    margin-left: 50%;
     position: relative;
     width: 170px;
     text-align: center;
