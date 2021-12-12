@@ -1,6 +1,7 @@
 .car-rental {
     display: flex;
-flex-direction: column;    
+flex-direction: column;
+margin: 15px 10% 15px 10%;    
 }
 @media (min-width: 600px) {
   .car-rental {
@@ -32,7 +33,7 @@ margin-bottom: 40px;
 
 .div-first__top {
   font-family: Ubuntu, sans-serif;
-font-size: 10px;
+font-size: 14px;
 font-weight: 700;
 letter-spacing: 0.1em;
 color: #f6c43d; 
