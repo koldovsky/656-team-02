@@ -1,6 +1,6 @@
 .contacts_maps{
     display: flex;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(170, 15, 15);
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
@@ -19,28 +19,9 @@
 }
 
 .main_contacts-bacground{
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: 0;
-    border-radius: inherit;
-    -webkit-transition: opacity .3s ease-out;
-    transition: opacity .3s ease-out;
-    border-radius: 20px;
-    width: 70%;
-    height: 400px;
-    margin:  50 auto;
-    background: repeating-linear-gradient(
-      45deg,
-      yellow 0px,
-      yellow 40px,
-      black 40px,
-      black 80px);
-    
-    display: flex;
+   
+    background-image: url(../img/background_flop.jpg);
+
     flex-direction: column;
     position: relative;
     padding-top: 100px;
@@ -65,22 +46,37 @@
     background-color: rgb(255, 255, 255);
     }
 
+
 .fastcar{
+    font-size: 14px;
     text-align: center;
     font-weight: 700;
     font-size: inherit;
-    color: #f6c43d!important;
+    color: #f6c43d;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 992px){
+    .fastcar {
+        font-size: inherit;
+    }
 }
 
 .contacts{
-    font-size: 65px;
+    text-align: center;
+    font-size: 35px;
     color: #222;
     line-height: 1;
     font-family: Barlow Condensed,sans-serif;
-    font-weight: 700;
+    font-weight: 200;
     text-transform: none;
     text-decoration: none;
     font-style: normal;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .street{
@@ -94,6 +90,9 @@
     color: #898989;
     text-transform: none;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
 }
 
 .phone {
@@ -110,14 +109,17 @@
     align-items: center;
 }
 
-@media (min-width: 40px) {
+@media (min-width: 4px) {
     .social_icons_contacts {
-        padding: 20px 15px;
         margin-left: 10%;
         margin-right: 10%;
     }
 }
-    
+.subheader_social_icon{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
 .buttom-car{
     text-decoration: none;
     color: var(--main-white);
@@ -125,9 +127,10 @@
     border: 1.5px solid var(--top-heading-color);
     padding: 15px 30px;
     border-radius: 30px;
+    margin-top: 50px;
     margin-right: 2%;
     border-radius: 30px;
-    margin-left: 50%;
+    margin-left: 28%;
     position: relative;
     width: 170px;
     text-align: center;
