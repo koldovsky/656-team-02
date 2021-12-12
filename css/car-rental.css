@@ -19,6 +19,7 @@ margin: 15px 10% 15px 10%;
   justify-content: space-between;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-right: 15%;
 }
 
 .div-second {
@@ -73,7 +74,8 @@ margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-top: 20px;     
+  margin-top: 20px; 
+  margin-left: 15%;    
 }
 
 .div-third__div-p-third {
