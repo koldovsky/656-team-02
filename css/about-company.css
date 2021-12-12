@@ -8,10 +8,19 @@
     position: relative;
     margin: auto;    
     flex-direction: column;
-    padding-top: 60px;
-    padding-bottom: 140px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    padding-left: 20px;
     max-width: 1920px;
-    min-width: 320px;
+}
+@media (min-width:600px) {
+    .about-company {
+        margin-left: 120px;
+        margin-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 }
 .about-company_top {
     font-family: Ubuntu, sans-serif;
@@ -19,35 +28,31 @@
     font-weight: 700;
     color: #f6c43d; 
     margin-bottom: 30px;
-    margin-left: 130px;
-    position: relative;
+   /* margin-left: 130px;*/
     
 }
 .about-us {
     font-family: "Barlow Condensed", sans-serif;
-    font-size: 65px;
+    font-size: 40px;
     font-weight: 700;
     color: #222;
-    margin-left: 130px;
+    /*margin-left: 130px;*/
     margin-bottom: 20px;
-    position: relative;
 }
 .slogan {
     font-size: 18px;
     font-weight: 700;
     color:#222;
-    margin-left: 130px;
+    /*margin-left: 130px;*/
     margin-bottom: 30px;
-    position: relative;
 }
 .offers {
     font-size: 17px;
     font-weight: 400;
     color:#898989;
-    margin-left: 130px;
+    /*margin-left: 130px;*/
     margin-bottom: 120px;
     max-width: 650px;
-    position: relative;
 }
 .offers-p_first {
     margin-bottom: 30px; 
@@ -60,7 +65,7 @@
     background-color: var(--main-blue);
     padding: 15px 15px ;
     border-radius: 30px;
-    margin-left: 130px;
+    margin-bottom: 40px;
     position: relative;
     width: 170px;
     text-align: center;
