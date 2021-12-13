@@ -1,0 +1,141 @@
+.best_offers {
+    display: flex;
+    flex-direction: column;
+    background-color: #222222;
+    /*text-align: center;*/
+
+}
+
+.best_offers-top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.best_offers-top_title {
+    font-family: Ubuntu, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--top-heading-color); 
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.best_offers-top_propositions {
+    margin-bottom: 20px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    color: var(--main-white);
+}
+.best_offers-top_description1 {
+    font-size: 20px;
+    font-weight: 400;
+    color:#898989;
+    line-height: 30px;
+}
+.best_offers-top_description2 {
+    font-size: 20px;
+    font-weight: 400;
+    color:#898989;
+    line-height: 30px;
+}
+.car_show {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+@media (min-width:320px) {
+    .car_show {
+     margin: 20px;
+    } 
+}
+.bmw {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 350px;
+    height: 500px;
+    margin: 20px; 
+}
+.bmw_img {
+    height: 370px;
+    width: auto;
+    border-radius: 7px;
+}
+.bmw_title {
+    margin-top: 20px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--main-white);
+    line-height: 36.4px;
+    margin-bottom: 20px;
+}
+.bmw_description {
+    font-size: 17px;
+    font-weight: 400;
+    color:#898989;
+    line-height: 27px;
+}
+.ford {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 350px;
+    height: 500px;
+    margin: 20px; 
+}
+.ford_img {
+    height: 370px;
+    width: auto;
+    border-radius: 7px;
+}
+.ford_title {
+    margin-top: 20px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--main-white);
+    line-height: 36.4px;
+    margin-bottom: 20px;
+}
+.ford_description {
+    font-size: 17px;
+    font-weight: 400;
+    color:#898989;
+    line-height: 27px;
+}
+.lexus {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 350px;
+    height: 500px;
+    margin: 20px; 
+}
+.lexus_img {
+    height: 370px;
+    width: auto;
+    border-radius: 7px;
+}
+.lexus_title {
+    margin-top: 20px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--main-white);
+    line-height: 36.4px;
+    margin-bottom: 20px;
+}
+.lexus_description {
+    font-size: 17px;
+    font-weight: 400;
+    color:#898989;
+    line-height: 27px;
+}

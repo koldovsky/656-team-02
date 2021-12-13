@@ -32,12 +32,11 @@
     
 }
 .about-us {
+    margin-bottom: 20px;
     font-family: "Barlow Condensed", sans-serif;
     font-size: 40px;
     font-weight: 700;
     color: #222;
-    /*margin-left: 130px;*/
-    margin-bottom: 20px;
 }
 .slogan {
     font-size: 18px;
