@@ -94,7 +94,6 @@
         font-size: inherit;
     }
 }
-
 .subheader_navigation_list:hover {
     color: var(--top-heading-color);
     text-decoration: underline;
@@ -107,12 +106,13 @@
 .subheader_learn_more_icon_style {
     width: 25px;
     height: 25px;
-    
+    color: var(--top-heading-color);
 }
 @media (min-width: 600px) {
-    .subheader_learn_more_icon_style {
+    .subheader_learn_more_icon {
         width: 30px;
         height: 30px;
+        color: var(--top-heading-color)
     }
 }
 .subheader_main_text {
@@ -180,7 +180,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 .header_button_learn_more,
 .header_button_price {
