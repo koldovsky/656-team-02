@@ -6,6 +6,7 @@
 }
 .burger_icon {
     font-size: 35px;
+    color: var(--top-heading-color);
 }
 #burger_checkbox:checked~.subheader_navigation_icons {
     display: flex;
