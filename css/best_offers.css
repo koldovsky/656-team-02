@@ -50,21 +50,18 @@
     line-height: 30px;
 }
 .car_show {
-    /*display: flex;
+    
+    /*display: flex;*/
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;*/
+    flex-wrap: wrap;
     margin-bottom: 40px;
 }
 @media (min-width:600px) {
     .car_show {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        margin: 10px;
+    display: flex;
+    margin: 10px;
     } 
 }
 .bmw {
@@ -72,8 +69,8 @@
     flex-direction: column;
     text-align: left;
     max-width: 390px;
-    height: 500px;
-    padding: 20px; 
+    height: 600px;
+    padding: 20px;    
 }
 .bmw_img {
     height: 370px;
@@ -101,7 +98,7 @@
     flex-direction: column;
     text-align: left;
     max-width: 390px;
-    height: 500px;
+    height: 600px;
     padding: 20px;
 }
 .ford_img {
@@ -130,7 +127,7 @@
     flex-direction: column;
     text-align: left;
     max-width: 390px;
-    height: 500px;
+    height: 600px;
     padding: 20px; 
 }
 .lexus_img {
