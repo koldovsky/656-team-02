@@ -52,16 +52,14 @@
 .car_show {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 150px;
-    margin-right: 150px;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 40px;
 }
 @media (min-width:320px) {
     .car_show {
-     margin: 20px;
+     margin: 10px;
     } 
 }
 .bmw {
@@ -70,7 +68,7 @@
     text-align: left;
     width: 390px;
     height: 500px;
-    margin: 0px; 
+    padding: 20px; 
 }
 .bmw_img {
     height: 370px;
@@ -99,7 +97,7 @@
     text-align: left;
     width: 390px;
     height: 500px;
-    margin: 0px; 
+    padding: 20px;
 }
 .ford_img {
     height: 370px;
@@ -128,7 +126,7 @@
     text-align: left;
     width: 390px;
     height: 500px;
-    margin: 0px; 
+    padding: 20px; 
 }
 .lexus_img {
     height: 370px;
