@@ -1,60 +1,38 @@
 .contacts_maps{
-    display: flex;
-    background-color:rgb(170, 15, 15);
-    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    background-color:rgb(255, 255, 255);
     background-size: cover;
     flex-direction: column;
-    position: relative;
     max-width: 100%;
     min-width: 20%;
 }
 
 .maps-section{
-    display: flex;
-    z-index: 3;
-    position: absolute;
     height: 100%;
     width: 100%;
-    margin-left: 50%;
 }
 
 .main_contacts-bacground{
-   
+    display: flex;
     background-image: url(../img/background_flop.jpg);
-
     flex-direction: column;
-    position: relative;
-    padding-top: 100px;
-    padding-bottom: 400px;
-    max-width: 50%;
-    min-width: 20%;
     vertical-align: baseline;
     -webkit-font-smoothing: antialiased;
 }
 
-.main_contacts{
-    position: absolute;
-    margin-left: 25%;
-    background: #FFFFFF;
-    background-image: initial;
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
+.main_contacts{ 
     background-color: rgb(255, 255, 255);
+    margin: auto;
     }
-
-
 .fastcar{
     font-size: 14px;
     text-align: center;
     font-weight: 700;
     font-size: inherit;
     color: #f6c43d;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 992px){
@@ -73,11 +51,7 @@
     text-transform: none;
     text-decoration: none;
     font-style: normal;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
+   }
 
 .street{
     font-size: 20px;
@@ -97,16 +71,23 @@
 
 .phone {
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .ui-link{
     color: #f6c43d;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
 }
 
 .social_icons_contacts{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 @media (min-width: 4px) {
@@ -118,26 +99,30 @@
 .subheader_social_icon{
     margin-left: 5px;
     margin-right: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
-.buttom-car{
-    text-decoration: none;
+.main-buttom-car{
+    margin-bottom: 30px;
+}
+.buttom-car {
     color: var(--main-white);
     background-color: var(--top-heading-color);
     border: 1.5px solid var(--top-heading-color);
     padding: 15px 30px;
     border-radius: 30px;
-    margin-top: 50px;
-    margin-right: 2%;
+    margin-top: 30px;
     border-radius: 30px;
-    margin-left: 28%;
-    position: relative;
-    width: 170px;
+    margin-left: 20%;
+    margin-right: 10%;
     text-align: center;
     text-decoration: none;
-    transition: color 0.3s;
 }
-
+.buttom-car-rent{
+    color: var(--main-white);
+    text-align: center;
+    text-decoration: none;
+  
+}
 .buttom-car:hover {
     background-color: var(--main-blue);
     border: 1.5px solid var(--main-blue);
