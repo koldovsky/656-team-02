@@ -23,8 +23,9 @@
            `<article class="bmw">
             <img class="bmw_img" src="${car.image}" alt="${car.title}">
             <h3 class="bmw_title">${car.title}</h3>
-            <p class="bmw_description">${car.description}</p>;`;
+            <p class="bmw_description">${car.description}</p>
+            </article>;`;
         }
     }
     renderCars(cars);
-})
+})()
