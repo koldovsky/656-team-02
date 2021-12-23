@@ -56,10 +56,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--main-white);
 }
 .header_subheader_menu_nav {
-    background-color: var(--main-white);
     margin-top: 50px;
 }
 .subheader_navigation {
