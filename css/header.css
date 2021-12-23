@@ -52,6 +52,16 @@
         flex-direction: row;
     }
 }
+.header_subheader_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--main-white);
+}
+.header_subheader_menu_nav {
+    background-color: var(--main-white);
+    margin-top: 50px;
+}
 .subheader_navigation {
     padding: 5px 5px;
     display: flex;
@@ -83,6 +93,7 @@
     padding: 0px 10px;
     font-size: 0.7em;
     font-weight: 500;
+    padding: 5px;
 }
 @media (min-width: 400px){
     .subheader_navigation_list {
@@ -101,11 +112,14 @@
 .subheader_social_icons {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .subheader_social_icon_style,
 .subheader_learn_more_icon_style {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
+    color: var(--top-heading-color);
+    padding: 5px;
 }
 .bi-facebook,
 .bi-youtube,

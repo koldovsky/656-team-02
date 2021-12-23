@@ -21,8 +21,8 @@
 } */
 .burger_menu {
     position: absolute;
-    right: 20px;
-    top: 10px;
+    /* right: 40px; */
+    top: 20px;
     width: 40px;
     height: 40px;
     cursor: pointer;
@@ -51,18 +51,18 @@
   bottom: -15px;
   transition: bottom 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
 }
-.burger_menu span .active:before{
+.burger_menu span.active:before{
   content: "";
   top: 0px;
   transform: rotate(45deg);
   transition: top 300ms, transform 300ms 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-.burger_menu span .active:after{
+.burger_menu span.active:after{
   content: "";
   bottom: 0;
   transform: rotate(-45deg);
   transition: bottom 300ms, transform 300ms 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-.burger_menu span .active{
+.burger_menu span.active{
   background: rgba(246, 196, 61, 0); 
 }
