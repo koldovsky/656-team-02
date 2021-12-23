@@ -1,4 +1,4 @@
-#burger_checkbox {
+/* #burger_checkbox {
     display: none;
 }
 .subheader_navigation_icons {
@@ -18,4 +18,36 @@
     .subheader_navigation_icons {
         display: flex;
     }
+} */
+.burger_menu {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.burger_menu span,
+.burger_menu span:before,
+.burger_menu span:after {
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    display: block;
+    background: #333;
+    border-radius: 5px;
+    transition: .3s;
+}
+.burger_menu span:before {
+  content: "";
+  top: -15px;
+  transition: top 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.burger_menu span {
+  top: 20px;
+}
+.burger_menu span:after{
+  content: "";
+  bottom: -15px;
+  transition: bottom 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
 }
