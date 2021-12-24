@@ -1,0 +1,68 @@
+.contact-form {
+    display: flex;
+    background-image: url("//res2.weblium.site/res/5ebd017955744e0022918f1b/5ec3d6843cf4820021b3191d");
+    background-repeat: no-repeat;
+    background-position-x: 48.44%;
+    background-position-y: 56.51%;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    position: relative;
+    flex-wrap: wrap;
+    
+}
+.send-request_all-inform {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-white);
+    height: auto;
+    width: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    max-width: 600px;
+}
+@media (max-width:600px) {
+    .send-request_all-inform {
+    display: flex;
+    margin: 15px;
+    } 
+}
+.send-request-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.send-request-top_title{
+    font-family: Ubuntu, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #f6c43d; 
+    margin-bottom: 50px;
+
+}
+
+.send-request-top_question {
+    margin-bottom: 40px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #222;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+
+.send-request-top_description {
+    font-size: 20px;
+    font-weight: 400;
+    color:#898989;
+    line-height: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
