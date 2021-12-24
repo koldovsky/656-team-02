@@ -21,11 +21,21 @@
 } */
 .burger_menu {
     position: absolute;
-    /* right: 40px; */
-    top: 20px;
+    right: 35px;
+    top: 12px;
     width: 40px;
     height: 40px;
     cursor: pointer;
+}
+@media (min-width: 400px) {
+  .burger_menu {
+    right: 45px;
+  }
+}
+@media (min-width: 800px) {
+  .burger_menu {
+    top: -320px;
+  }
 }
 .burger_menu span,
 .burger_menu span:before,
