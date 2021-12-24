@@ -11,7 +11,7 @@
             image: "img/ford.png"
         },
         {
-            title: "Lexus SX350"
+            title: "Lexus SX350",
             description: "It's an elegant and comfortable business class car. Perfect for driving to a business meeting.",
             image: "img/lexus_sx.png"
         }
