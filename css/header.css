@@ -86,13 +86,11 @@
 }
 @media (min-width: 400px){
     .subheader_navigation_list {
-        font-size: 0.8em;
-        padding: 0px 15px;
+        font-size: inherit;
     }
 }
 @media (min-width: 900px){
     .subheader_navigation_list {
-        font-size: inherit;
         padding: 0px 15px;
     }
 }
