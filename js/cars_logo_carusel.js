@@ -1,10 +1,11 @@
 (function() {
     const carSlides = [
-        '<div class="brand_carusel_photo"><img src="../img/logo_ford.png" alt="Logo ford"></div>',
-        '<div class="brand_carusel_photo"><img src="../img/logo_honda.png" alt="Logo honda"></div>',
-        '<div class="brand_carusel_photo"><img src="../img/logo_bmv.png" alt="Logo BMV"></div>',
-        '<div class="brand_carusel_photo"><img src="../img/logo_audi.png" alt="Logo audi"></div>'
+        '<div class="brand_carusel_photo"><img src="img/logo_ford.png" alt="Logo ford"></div>',
+        '<div class="brand_carusel_photo"><img src="img/logo_honda.png" alt="Logo honda"></div>',
+        '<div class="brand_carusel_photo"><img src="img/logo_bmv.png" alt="Logo BMV"></div>',
+        '<div class="brand_carusel_photo"><img src="img/logo_audi.png" alt="Logo audi"></div>'
     ];
+
     let currentSlide = 0;
 
     function showCurrentSlide() {
@@ -31,7 +32,8 @@
 
     showCurrentSlide();
 
-    document.querySelector('manufacyure_carusel_btn').addEventListener('click', nextSlide);
-    document.querySelector('manufacyure_carusel_btn').addEventListener('click', prevSlide);
+    document.querySelector('manufacyure_carusel_btn_next').addEventListener('click', nextSlide);
+    document.querySelector('manufacyure_carusel_btn_prev').addEventListener('click', prevSlide);
+    window.addEventListener('resize', showCurrentSlide);
 
 })()
