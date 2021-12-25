@@ -220,5 +220,5 @@
     color: var(--top-heading-color);
 }
 .header_button_price:hover {
-text-decoration: underline;
+    text-decoration: underline;
 }
