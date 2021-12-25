@@ -1,0 +1,29 @@
+.section_manufactures {
+    background-color: var(--main-black);
+    display: flex;
+    flex-direction: column;
+}
+.section_manufactures_main {
+    min-width: 300px;
+    justify-content: flex-start;
+    padding: 90px 40px;
+}
+.section_manufactures_text {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--top-heading-color);
+    margin-bottom: 20px;
+}
+.section_manufactures_title {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 40px;
+    color: var(--main-white);
+    margin-bottom: 20px;
+    line-height: 1em;
+}
+.section_manufactures_description {
+    line-height: 1.5em;
+    color: var(--main-white);
+    font-size: 20px;
+    opacity: 0.7;
+}
