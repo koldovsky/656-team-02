@@ -1,0 +1,81 @@
+.section_rent {
+    background: url("../img/backgraund_\ rent_car.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    position: relative;
+    background-position: 50% 50%;
+    display: flex;
+    align-items: center;
+}
+.section_rent_main {
+    min-width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+@media (min-width: 400px) {
+    .section_rent_main {
+    max-width: 70vw;
+    }
+}
+@media (min-width: 600px) {
+    .section_rent_main {
+    max-width: 60vw;
+    }
+}
+@media (min-width: 800px) {
+    .section_rent_main {
+    max-width: 500px;
+    }
+}
+.section_rent_text {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--top-heading-color);
+    margin-bottom: 20px;
+}
+.section_rent_title {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 40px;
+    color: var(--main-black);
+    margin-bottom: 20px;
+    line-height: 1em;
+}
+.section_rent_description {
+    margin-bottom: 50px;
+    line-height: 1.5em;
+}
+.section_rent_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section_rent_btn_contact,
+.section_rent_btn_offer {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+.section_rent_btn_contact {
+    color: var(--main-white);
+    background-color: var(--top-heading-color);
+    border: 1.5px solid var(--top-heading-color);
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.section_rent_btn_contact:hover {
+    background-color: var(--main-blue);
+    border: 1.5px solid var(--main-blue);
+}
+.section_rent_btn_offer {
+    color: var(--main-black);
+    background-color: none;
+    border: 1.5px solid var(--main-black);
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+.section_rent_btn_offer:hover {
+    color: var(--main-white);
+    background-color: var(--main-black);
+}

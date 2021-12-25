@@ -3,10 +3,8 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    background-repeat: no-repeat;
     min-height: 100%;
     position: relative;
-    
 }
 .header_subheader {
     display: flex;
