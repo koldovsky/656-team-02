@@ -21,6 +21,7 @@
     margin-bottom: 100px;
     margin-left: 200px;
     max-width: 600px;
+    box-shadow: 10px 0 5px 0 #e4e3e3;
 }
 @media (max-width:600px) {
     .send-request_all-inform {
