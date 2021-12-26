@@ -26,6 +26,7 @@
 @media (min-width: 800px) {
     .section_rent_main {
     max-width: 500px;
+    margin-left: 10%;
     }
 }
 .section_rent_text {

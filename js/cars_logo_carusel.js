@@ -1,15 +1,15 @@
 (function() {
     const carSlides = [
-        '<div class="brand_carusel_photo"><img src="img/logo_ford.png" alt="Logo ford"></div>',
-        '<div class="brand_carusel_photo"><img src="img/logo_honda.png" alt="Logo honda"></div>',
-        '<div class="brand_carusel_photo"><img src="img/logo_bmv.png" alt="Logo BMV"></div>',
-        '<div class="brand_carusel_photo"><img src="img/logo_audi.png" alt="Logo audi"></div>'
+        '<div class="brand_carusel_photo"><img class="brand_carusel_photo_syles" src="img/logo_ford.png" alt="Logo ford"></div>',
+        '<div class="brand_carusel_photo"><img class="brand_carusel_photo_syles" src="img/logo_honda.png" alt="Logo honda"></div>',
+        '<div class="brand_carusel_photo"><img class="brand_carusel_photo_syles" src="img/logo_bmv.png" alt="Logo BMV"></div>',
+        '<div class="brand_carusel_photo"><img class="brand_carusel_photo_syles" src="img/logo_audi.png" alt="Logo audi"></div>'
     ];
 
     let currentSlide = 0;
 
     function showCurrentSlide() {
-        const slideContainer = document.querySelector('.section_manufactures_brand_carusel');
+        const slideContainer = document.querySelector('.brand_carusel_photos');
         slideContainer.innerHTML = carSlides[currentSlide];
         if (window.innerWidth > 600) {
             const secondSlide = currentSlide + 1 >= carSlides.length ? 0 : currentSlide + 1;
@@ -29,11 +29,11 @@
         currentSlide = currentSlide - 1 <= 0 ? carSlides.length - 1 : currentSlide - 1;
         showCurrentSlide();
     }
-
+    // setInterval (nextSlide, 1000)
     showCurrentSlide();
 
-    document.querySelector('manufacyure_carusel_btn_next').addEventListener('click', nextSlide);
-    document.querySelector('manufacyure_carusel_btn_prev').addEventListener('click', prevSlide);
-    window.addEventListener('resize', showCurrentSlide);
+    document.getElementById('manufacture_carusel_btn_forvard').addEventListener('click', nextSlide);
+    document.getElementById('manufacture_carusel_btn_back').addEventListener('click', prevSlide);
+    // window.addEventListener('resize', showCurrentSlide);
 
-})()
+})();
