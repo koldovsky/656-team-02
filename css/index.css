@@ -1,3 +1,4 @@
+@import "contact-form_modal.css";
 @import "common.css";
 @import "header.css";
 @import "auto_cart.css";
@@ -12,3 +13,4 @@
 @import "contact-form.css";
 @import "section_rent.css";
 @import "section_manufactures.css";
+@import "feedback-section.css";

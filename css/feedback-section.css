@@ -1,0 +1,113 @@
+.feedback-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  padding-bottom: 100px;
+}
+
+.feedback-section__top-heading {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  text-align: center;
+  grid-gap: 15px;
+  font-size: 17px;
+  font-weight: 400;
+  align-items: center;
+  line-height: 27.54px;
+}
+
+.feedback-section__top-heading-name {
+  color: var(--top-heading-color);
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+.feedback-section__top-heading-title {
+  color: var(--main-black);
+  font-size: 65px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.feedback-section__top-heading-description {
+  color: var(--main-gray);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 30px;
+}
+.feedback__slider {
+  display: flex;
+  justify-content: center;
+}
+
+.feedback__slider-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.feedback__slider-foto {
+  display: block;
+  overflow: hidden;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.feedback__slider-foto-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.feedback__slider-person-name {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 28px;
+  color: var(--main-black);
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.feedback__slider-person-profession {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  color: rgb(179, 179, 179);
+  margin-top: 5px;
+}
+
+.feedback__slider-person-feedback-text {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 17px;
+  color: var(--main-gray);
+  margin-top: 30px;
+}
+
+.feedback__slider-feedback-date {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  color: rgb(179, 179, 179);
+  margin-top: 20px;
+}
+
+.feedback__slider__button {
+  background-color: transparent;
+  border: transparent;
+  color: var(--main-blue);
+  height: 80px;
+  margin: auto;
+  cursor: pointer;
+  opacity: 0.7;
+  width: auto;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
+}
