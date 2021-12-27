@@ -6,17 +6,13 @@
 @media (min-width: 800px) {
     .section_manufactures {
        flex-direction: row;
+       align-items: center;
     }
 }
-/* .section_manufactures_brand_carusel {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-} */
 .section_manufactures_main {
     min-width: 300px;
     justify-content: flex-start;
-    padding: 90px 40px;
+    padding: 60px 40px 30px 40px;
 }
 .section_manufactures_text {
     font-size: 14px;
@@ -37,18 +33,53 @@
     font-size: 20px;
     opacity: 0.7;
 }
+.section_manufactures_brand_carusel_btn {
+    display: flex;
+    flex-direction: column;
+}
 .section_manufactures_brand_carusel {
     display: flex;
     flex-direction: column;
 }
-.manufacyure_carusel_btns {
+.brand_carusel_photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.brand_carusel_photo {
+    background-color: rgba(255, 255, 255, 0.06);
+    margin: auto;
+    padding: 10px;
+    margin: 10px;
+    min-height: 250px;
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
+} 
+@media (min-width: 600px) {
+    .brand_carusel_photo {
+        width: 300px;
+    }
 }
-.manufacyure_carusel_btn_next,
-.manufacyure_carusel_btn_prev {
+@media (min-width: 800px) {
+    .brand_carusel_photo {
+        min-height: 200px;
+        width: 200px;
+        margin-top: 60px;
+    }
+}
+@media (min-width: 1200px) {
+    .brand_carusel_photo {
+        min-width: 270px;
+    }
+}
+
+.manufacture_carusel_btns {
+    display: flex;
+    justify-content: center;
+}
+.manufacture_carusel_btn_forvard,
+.manufacture_carusel_btn_back {
     background-color: var(--main-white);
     width:12px;
     height:12px;
@@ -57,13 +88,10 @@
     margin-right: 10px;
     margin-bottom: 20px;
     cursor: pointer;
+    opacity: 0.6;
+}
+.manufacture_carusel_btn_forvard:hover,
+.manufacture_carusel_btn_back:hover {
+    opacity: 1;
 }
 
-.brand_carusel_photo {
-    display: flex;
-    background-color: rgba(255, 255, 255, 0.06);
-    width: 80vw;
-    margin: auto;
-    padding: 70px 0;
-    margin-bottom: 15px;
-}
