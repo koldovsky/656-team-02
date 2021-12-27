@@ -6,7 +6,7 @@
 @media (min-width: 800px) {
     .section_manufactures {
        flex-direction: row;
-       margin: 30px;
+       align-items: center;
     }
 }
 .section_manufactures_main {
@@ -33,24 +33,33 @@
     font-size: 20px;
     opacity: 0.7;
 }
+.section_manufactures_brand_carusel_btn {
+    display: flex;
+    flex-direction: column;
+}
 .section_manufactures_brand_carusel {
     display: flex;
     flex-direction: column;
 }
 .brand_carusel_photo {
-    display: flex;
     background-color: rgba(255, 255, 255, 0.06);
-    width: 80vw;
     margin: auto;
-    padding: 60px 0;
-    margin-bottom: 15px;
+    padding: 30px 0;
+    margin: 30px;
+}
+@media (min-width: 800px) {
+    .brand_carusel_photo {
+        width: 60vw;
+    }
+}
+.brand_carusel_photo_syles_bmv {
+    padding: -30px 0;
 }
 .manufacture_carusel_btns {
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
 }
+
 .manufacture_carusel_btn_forvard,
 .manufacture_carusel_btn_back {
     background-color: var(--main-white);
@@ -61,5 +70,10 @@
     margin-right: 10px;
     margin-bottom: 20px;
     cursor: pointer;
+    opacity: 0.6;
+}
+.manufacture_carusel_btn_forvard:hover,
+.manufacture_carusel_btn_back:hover {
+    opacity: 1;
 }
 

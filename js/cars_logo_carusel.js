@@ -34,6 +34,6 @@
 
     document.getElementById('manufacture_carusel_btn_forvard').addEventListener('click', nextSlide);
     document.getElementById('manufacture_carusel_btn_back').addEventListener('click', prevSlide);
-    // window.addEventListener('resize', showCurrentSlide);
+    window.addEventListener('resize', showCurrentSlide);
 
 })();
