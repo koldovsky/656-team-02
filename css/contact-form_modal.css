@@ -7,10 +7,10 @@
   left: 0;
   z-index: 1000;
   background: rgba(190, 188, 188, 0.9);
-  display: flex;
+  /*display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px 15px;
+  padding: 30px 15px;*/
 }
 .modal_img {
   width: 40px;
@@ -28,6 +28,10 @@
   border-radius: 3px;
   position: relative;
   box-shadow: 0 5px 15px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 15px;
 }
 .modal__title {
   font-family: "Barlow Condensed", sans-serif;
