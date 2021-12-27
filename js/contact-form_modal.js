@@ -1,4 +1,6 @@
-  let requestButton = document.getElementsByClassName('.botton_request');
+
+  
+ /* let requestButton = document.getElementsByClassName('.botton_request');
 
   let modal1 = document.getElementByClassName('.modal');
   
@@ -13,6 +15,6 @@
   closeButton.onclick = function (e) {
     e.preventDefault();
     modal1.classList.remove('modal_active');
-  }
+  }*/
 
  
