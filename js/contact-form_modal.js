@@ -1,20 +1,21 @@
+(function () {
+  document.addEventListener('DOMContentLoaded',function() {
+  const requestButton = document.querySelector('.button_request');
 
+  const modalForm = document.querySelector('.modal');
   
-  let requestButton = document.getElementsByClassName('botton_request');
+  const closeButton = modalForm.querySelector('.modal__close-button_ok');
 
-  let modal1 = document.getElementByClassName('modal');
-  
-  let closeButton = modal1.getElementsByClassName('modal__close-button_ok')[0];
-
-
-  requestButton.onclick = function (e) {
+  requestButton.addEventListener('click', function (e) {
     e.preventDefault();
-    modal1.classList.add('modal_active');
-  }
+    modalForm.classList.add('modal_active');
+  });
 
-  closeButton.onclick = function (e) {
+  closeButton.addEventListener('click', function (e) {
     e.preventDefault();
-    modal1.classList.remove('modal_active');
-  }
+    modalForm.classList.remove('modal_active');
+  });
+});
+})() 
 
  
