@@ -51,8 +51,13 @@
     .subheader_navigation_icons {
         flex-direction: row;
         background-color: rgba(255, 255, 255, 0);
-        right: 30px;
-        top: 10px;
+        right: 50px;
+        top: 20px;
+    }
+}
+@media (min-width: 1200px) {
+    .subheader_navigation_icons {
+        right: 100px;
     }
 }
 .subheader_navigation {
