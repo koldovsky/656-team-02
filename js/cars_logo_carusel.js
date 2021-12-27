@@ -32,8 +32,8 @@
     // setInterval (nextSlide, 1000)
     showCurrentLogoSlide();
 
-    document.querySelector('manufacture_carusel_btn_forvard').addEventListener('click', nextSlide);
-    document.querySelector('manufacture_carusel_btn_back').addEventListener('click', prevSlide);
+    document.getElementById('manufacture_carusel_btn_forvard').addEventListener('click', nextSlide);
+    document.getElementById('manufacture_carusel_btn_back').addEventListener('click', prevSlide);
     window.addEventListener('resize', showCurrentLogoSlide);
 
 })();
