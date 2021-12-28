@@ -16,6 +16,6 @@
     modalForm.classList.remove('modal_active');
   });
 });
-})() 
+})(); 
 
  
