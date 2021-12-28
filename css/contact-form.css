@@ -117,6 +117,6 @@
 .button_request:hover {
     background-color: var(--top-heading-color); 
 }
-.form-control:invalid:required {
+.form-control:invalid {
     border: 2px solid red;
 }
