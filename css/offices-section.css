@@ -3,6 +3,8 @@
   display: flex;
   flex-direction: column;
   background-image: url(../img/offices-section-background.jfif);
+  padding-top: 5%;
+  padding-bottom: 100px;
 }
 
 .offices-section__top-heading {

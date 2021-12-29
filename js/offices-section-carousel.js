@@ -13,12 +13,14 @@
     slideContainer.innerHTML = slides[currentSlide];
   }
 
-  function nextSlide() {
+  function nextSlide(ev) {
+    ev.stopPropagation();
     currentSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
     showCurrentSlide();
   }
 
-  function prevSlide() {
+  function prevSlide(ev) {
+    ev.stopPropagation();
     currentSlide = currentSlide - 1 <= 0 ? slides.length - 1 : currentSlide - 1;
     showCurrentSlide();
   }
