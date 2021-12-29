@@ -12,7 +12,7 @@ const form = document.getElementById("my-form");
             'Accept': 'application/json'
         }
       }).then(response => {
-        status.innerHTML = "Thanks for your submission!";
+        status.innerHTML = "";
         form.reset()
       }).catch(error => {
         status.innerHTML = "Oops! There was a problem submitting your form"
