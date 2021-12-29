@@ -113,10 +113,8 @@
     text-align: center;
     text-decoration: none;
     transition: color 0.3s;
+    cursor: pointer;
 }
 .button_request:hover {
     background-color: var(--top-heading-color); 
-}
-.form-control:invalid {
-    border: 2px solid red;
 }
