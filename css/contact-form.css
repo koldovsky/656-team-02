@@ -85,20 +85,20 @@
     border: solid;
     border-color: blue;
 }
-.botton {
+.button {
     display: flex;
     justify-items: center;
     margin-left: 50px;
     
 }
 @media (max-width:600px){
-    .botton {
+    .button {
         display: block;
         margin-left: 40px;
         margin-bottom: 30px;
     } 
 }
-.botton_request {
+.button_request {
     font-size: 16,5px;
     font-weight: 700;
     color: #fff;
@@ -114,7 +114,9 @@
     text-decoration: none;
     transition: color 0.3s;
 }
-.botton_request:hover {
+.button_request:hover {
     background-color: var(--top-heading-color); 
 }
-
+.form-control:invalid {
+    border: 2px solid red;
+}
