@@ -9,7 +9,6 @@
   const closeButton = modalForm.querySelector('.modal__close-button');
 
   requestButton.addEventListener('click', function (e) {
-    e.preventDefault();
     modalForm.classList.add('modal_active');
   });
 

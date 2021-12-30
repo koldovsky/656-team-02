@@ -2,6 +2,14 @@
 const form = document.getElementById("my-form");
     
     async function handleSubmit(event) {
+      const email = document.getElementById('mail');
+      email.addEventListener('input', function (event){
+       if (email.validity.typeMismatch){
+        email.setCustomValidity('Write correct email!');
+      } else { 
+        email.setCustomValidity("");
+      }
+    });
       event.preventDefault();
       const status = document.getElementById("my-form-status");
       const data = new FormData(event.target);
