@@ -1,11 +1,11 @@
 (function () {
-  const modal = document.querySelector(".offices-section__modal");
+  const officesModal = document.querySelector(".offices-section__modal");
 
-  const modalCarousel = document.querySelector(".offices-section-carousel");
+  const officesModalCarousel = document.querySelector(".offices-section-carousel");
 
   function showCarousel() {
-    modal.style.display = "block";
-    modalCarousel.style.display = "flex";
+    officesModal.style.display = "block";
+    officesModalCarousel.style.display = "flex";
   }
 
   document
@@ -13,10 +13,8 @@
     .addEventListener("click", showCarousel);
 
   function closeCarousel() {
-    modal.style.display = "none";
+    officesModal.style.display = "none";
   }
 
-  document
-    .querySelectorAll(".modal-close-button")[0]
-    .addEventListener("click", closeCarousel);
+  document.querySelector(".offices-section__modal").addEventListener("click", closeCarousel);
 })();
