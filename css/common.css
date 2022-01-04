@@ -13,6 +13,8 @@
     --main-white: rgb(255, 255, 255);
     --main-black: rgb(34, 34, 34);
     --main-gray: rgb(137, 137, 137); /* text description*/
+    overflow-x: hidden;
+
 }
 img {
     display: block;
