@@ -14,7 +14,7 @@
     --main-black: rgb(34, 34, 34);
     --main-gray: rgb(137, 137, 137); /* text description*/
     overflow-x: hidden;
-
+    -webkit-overflow-scrolling : touch;
 }
 img {
     display: block;
