@@ -25,10 +25,10 @@
       </div>
       <div class="subheader_navigation_icons">
         <nav class="subheader_navigation">
-          <a class="subheader_navigation_list" href="#about_us">About us</a>
+          <a class="subheader_navigation_list" href="#">About us</a>
           <a class="subheader_navigation_list" href="#">Cars of the month</a>
-          <a class="subheader_navigation_list" href="#">Pricing</a>
-          <a class="subheader_navigation_list" href="#">Testimonials</a>
+          <a class="subheader_navigation_list" href="#section_pricing">Pricing</a>
+          <a class="subheader_navigation_list" href="#testimonials">Testimonials</a>
           <a class="subheader_navigation_list" href="#">Contact us</a>
         </nav>
         <div class="subheader_social_icons">
@@ -58,8 +58,8 @@
       <h1 class="header_title">CAR RENTAL</h1>
       <div class="header_menu_btn">
         <a class="header_button_learn_more" href="#">LEARN MORE</a>
-        <a class="header_button_price" href="#">PRICING</a>
-        <a class="learn_more_icon" href="#"><img src="img/icon.png" class="subheader_learn_more_icon_style" /></a>
+        <a class="header_button_price" href="#section_pricing">PRICING</a>
+        <a class="learn_more_icon" href="#section_pricing"><img src="img/icon.png" class="subheader_learn_more_icon_style" /></a>
       </div>
     </section>
   </header>
@@ -72,7 +72,7 @@
           No obstacles on your way <br />
           can spoil the trip.
         </p>
-        <a class="auto_card_button" href="#">LEARN MORE</a>
+        <a class="auto_card_button" href="#my-form">LEARN MORE</a>
       </div>
       <div class="auto_card">
         <img class="photo_auto_card" src="img/sports_cars.webp" alt="photo_sports_cars" />
@@ -81,7 +81,7 @@
           Feel what true speed <br />
           and freedom are.
         </p>
-        <a class="auto_card_button" href="#">LEARN MORE</a>
+        <a class="auto_card_button" href="#my-form">LEARN MORE</a>
       </div>
       <div class="auto_card">
         <img class="photo_auto_card" src="img/luxury.png" alt="photo_luxury" />
@@ -90,7 +90,7 @@
           Comfortable cars for <br />
           demanding clients.
         </p>
-        <a class="auto_card_button" href="#">LEARN MORE</a>
+        <a class="auto_card_button" href="#my-form">LEARN MORE</a>
       </div>
     </div>
     <!--Kats Dariya end-->
@@ -306,7 +306,8 @@
             <input type="text" name="full_name" class="form-control" required placeholder="Enter your full name*" />
           </div>
           <div class="request_form">
-            <input type="tel" name="phone_number" id="phone_number" class="form-control" required placeholder="Enter your phone number*" />
+            <input type="tel" name="phone_number" id="phone_number" class="form-control" required
+              placeholder="Enter your phone number*" />
           </div>
           <div class="request_form">
             <input type="email" name="mail" id="mail" class="form-control" required placeholder="Enter your e-mail*" />
@@ -335,7 +336,6 @@
     <!--Iryna Dobrovolska end-->
 
     <!--Yulia Kameneva start-->
-
     <section class="offices-section">
       <div class="offices-section__top-heading">
         <span class="offices-section__top-heading-name">— OFFICES</span>
@@ -384,8 +384,8 @@
           discounts are available.
         </p>
         <div class="section_rent_btn">
-          <a class="section_rent_btn_contact" href="#">CONTACTS</a>
-          <a class="section_rent_btn_offer" href="#">BESTT OFFERS</a>
+          <a class="section_rent_btn_contact" href="#contacts">CONTACTS</a>
+          <a class="section_rent_btn_offer" href="#best_offers">BESTT OFFERS</a>
         </div>
       </div>
     </section>
@@ -417,10 +417,98 @@
         <div class="manufacture_carusel_btns">
           <button class="manufacture_carusel_btn" id="manufacture_carusel_btn_forvard"></button>
           <button class="manufacture_carusel_btn" id="manufacture_carusel_btn_back"></button>
-          <button class="manufacture_carusel_btn" id="manufacture_carusel_btn_ford"></button>
-          <button class="manufacture_carusel_btn" id="manufacture_carusel_btn_audi"></button>
         </div>
       </div>
+    </section>
+    <section class="section_pricing" id="section_pricing">
+      <p class="pricing_text">— RATES</p>
+      <h2 class="pricing_title">Clear Pricing</h2>
+      <p class="pricing_descriotion">You pay not for the model of the car but for its class. We offer not only the best
+        luxury cars but also the most
+        favorable conditions for any rental period.</p>
+      <div class="pricing_cards">
+        <div class="pricing_card one" id="pricing_card">
+          <p class="pricing_card_text">— SUVs</p>
+          <h3 class="pricing_card_title">$150</h3>
+          <p class="pricing_card_description">per day</p>
+          <ul class="pricing_card_lists">
+            <li class="pricing_card_list">Ford Everest</li>
+            <li class="pricing_card_list">Nissan X-Trail</li>
+            <li class="pricing_card_list">Suzuki Escudo or similar</li>
+          </ul>
+          <a class="pricing_card_button" href="#my-form">RENT A CAR</a>
+        </div>
+        <div class="pricing_card_background" id="pricing_card">
+          <p class="pricing_card_text_background">— LUXURY</p>
+          <h3 class="pricing_card_title_background">$390</h3>
+          <p class="pricing_card_description_background">per day</p>
+          <ul class="pricing_card_lists">
+            <li class="pricing_card_list_background">Lexus SX350</li>
+            <li class="pricing_card_list_background">Jaguar XF</li>
+            <li class="pricing_card_list_background">Audi A6 or similar</li>
+          </ul>
+          <a class="pricing_card_button" href="#my-form">RENT A CAR</a>
+        </div>
+        <div class="pricing_card third" id="pricing_card">
+          <p class="pricing_card_text">— LUXURY</p>
+          <h3 class="pricing_card_title">$500</h3>
+          <p class="pricing_card_description">per day</p>
+          <ul class="pricing_card_lists">
+            <li class="pricing_card_list">McLaren Senna</li>
+            <li class="pricing_card_list">Porsche 911 GT2 RS</li>
+            <li class="pricing_card_list">Ford GT or similar</li>
+          </ul>
+          <a class="pricing_card_button" href="#my-form">RENT A CAR</a>
+        </div>
+      </div>
+      <!-- The Modal one -->
+      <div class="pricing_cards_modal one">
+        <!-- Modal Content -->
+        <div class="pricing_card_modal one">
+          <p class="pricing_card_text">— SUVs</p>
+          <h3 class="pricing_card_title">$150</h3>
+          <p class="pricing_card_description">per day</p>
+          <ul class="pricing_card_lists">
+            <li class="pricing_card_list">Ford Everest</li>
+            <li class="pricing_card_list">Nissan X-Trail</li>
+            <li class="pricing_card_list">Suzuki Escudo or similar</li>
+          </ul>
+          <a class="pricing_card_button" href="#my-form">RENT A CAR</a>
+        </div>
+      </div>
+      <!--Modal End-->
+      <!-- The Modal two -->
+      <div class="pricing_cards_modal two">
+        <!-- Modal Content -->
+        <div class="pricing_card_background_modal">
+          <p class="pricing_card_text_background">— LUXURY</p>
+          <h3 class="pricing_card_title_background">$390</h3>
+          <p class="pricing_card_description_background">per day</p>
+          <ul class="pricing_card_lists">
+            <li class="pricing_card_list_background">Lexus SX350</li>
+            <li class="pricing_card_list_background">Jaguar XF</li>
+            <li class="pricing_card_list_background">Audi A6 or similar</li>
+          </ul>
+          <a class="pricing_card_button" href="#my-form">RENT A CAR</a>
+        </div>
+      </div>
+      <!--Modal End-->
+      <!-- The Modal third -->
+      <div class="pricing_cards_modal third">
+        <!-- Modal Content -->
+        <div class="pricing_card_modal third" id="pricing_card_modal_third">
+          <p class="pricing_card_text">— LUXURY</p>
+          <h3 class="pricing_card_title">$500</h3>
+          <p class="pricing_card_description">per day</p>
+          <ul class="pricing_card_lists">
+            <li class="pricing_card_list">McLaren Senna</li>
+            <li class="pricing_card_list">Porsche 911 GT2 RS</li>
+            <li class="pricing_card_list">Ford GT or similar</li>
+          </ul>
+          <a class="pricing_card_button" href="#my-form">RENT A CAR</a>
+        </div>
+      </div>
+        <!--Modal End-->
     </section>
     <!-- Kats Darya end -->
 
@@ -719,6 +807,7 @@
   <script src="js/offices-section-modal.js"></script>
   <script src="js/cars_logo_carusel.js"></script>
   <script src="js/feedback-section.js"></script>
+  <script src="js/pricing_carousel.js"></script>
 </body>
 
 </html>

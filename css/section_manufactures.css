@@ -22,6 +22,11 @@
        padding-right: 0;
     }
 }
+@media (min-width: 1200px) {
+    .section_manufactures_main {
+       margin-left: 10%;
+    }
+}
 .section_manufactures_text {
     font-size: 14px;
     font-weight: 700;
@@ -78,7 +83,7 @@
 }
 @media (min-width: 1200px) {
     .brand_carusel_photo {
-        min-width: 270px;
+        min-width: 250px;
     }
 }
 
@@ -98,6 +103,9 @@
     opacity: 0.6;
 }
 .manufacture_carusel_btn:hover {
+    opacity: 1;
+}
+.manufacture_carusel_btn:active {
     opacity: 1;
 }
 
