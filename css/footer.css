@@ -7,25 +7,27 @@
 .footer__container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  margin: 0px 100px 0px 20px;
   padding-bottom: 30px;
 }
 .footer__nav-bar a {
-  color: white;
+  color: var(--main-white);
   text-decoration: none;
   font-size: 17px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
   padding: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.footer__nav-bar a:hover {
+  color: var(--top-heading-color);
 }
 .footer__nav-bar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap;
-  padding-right: 0px;
+  flex-wrap: nowrap;
   width: 50vw;
 }
 .footer__company-logo {
@@ -53,14 +55,15 @@
   font-weight: 700;
   letter-spacing: 1.4px;
   line-height: 22.4px;
-  margin: 0px 100px 0px 20px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .footer__nav-bar {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+}
+@media (max-width: 768px) {
   .footer {
     padding: 62px 30px 32px;
   }
