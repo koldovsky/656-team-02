@@ -1,6 +1,6 @@
 .footer {
   padding: 60px 40px 30px;
-  background-color: black;
+  background-color: var(--main-black);
   display: flex;
   flex-direction: column;
 }
@@ -18,6 +18,7 @@
   font-size: 17px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
+  padding: 10px;
 }
 .footer__nav-bar {
   display: flex;
@@ -36,7 +37,7 @@
   text-align: center;
 }
 .footer__line {
-  background-color: white;
+  background-color: var(--main-white);
   bottom: 1px;
   height: 1px;
   opacity: 0.2;
@@ -46,7 +47,7 @@
   padding-bottom: 15px;
   display: flex;
   justify-content: space-between;
-  color: gray;
+  color: var(--main-gray);
   font-size: 14px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
@@ -70,4 +71,10 @@
     display: flex;
     flex-direction: column;
   }
-} ;
+  .footer__copyrights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
