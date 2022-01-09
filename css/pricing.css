@@ -1,0 +1,191 @@
+.section_pricing {
+    text-align: center;
+    background: url("../img/background_flop.jpg");
+    background-size: cover;
+}
+.pricing_text {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--top-heading-color);
+    margin-bottom: 20px;
+    padding-top: 80px;
+}
+.pricing_title {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 40px;
+    color: var(--main-black);
+    margin-bottom: 20px;
+    line-height: 1em;
+}
+.pricing_descriotion {
+    line-height: 1.5em;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 20px;
+}
+@media (min-width: 400px) {
+    .pricing_descriotion {
+        margin: 0 10% 30px 10%;
+    }
+}
+@media (min-width: 900px) {
+    .pricing_descriotion {
+        margin: 0 20% 30px 20%;
+    }
+}
+@media (min-width: 1200px) {
+    .pricing_descriotion {
+        margin: 0 30% 30px 30%;
+    }
+}
+.pricing_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media (min-width: 800px) {
+    .pricing_cards {
+        flex-wrap: nowrap;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+.pricing_card {
+    background-color: var(--main-white);
+    text-align: left;
+    width: 350px;
+    height: 400px;
+    margin: 20px;
+    padding-left: 30px;
+}
+@media (min-width: 800px) {
+    .pricing_card {
+        margin: 0px;
+        width: 300px;
+    }
+}
+.pricing_card_background {
+    background: url("../img/background_pricing.jpg");
+    width: 350px;
+    height: 400px;
+    margin: 20px;
+    text-align: left;
+    padding-left: 30px;
+}
+@media (min-width: 800px) {
+    .pricing_card_background {
+        margin: 0px;
+        height: 450px;
+        padding-left: 50px;
+    }
+}
+.pricing_card_title {
+    font-family: "Barlow Condensed", sans-serif;
+    color: var(--main-black);
+    font-size: 40px;
+    font-weight: 700;
+    margin: 30px;
+}
+.pricing_card_title_background {
+    font-family: "Barlow Condensed", sans-serif;
+    color: var(--main-white);
+    font-size: 40px;
+    font-weight: 700;
+    margin: 30px;
+}
+.pricing_card_text {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--top-heading-color);
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+.pricing_card_text_background {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--main-white);
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+.pricing_card_description {
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    color: rgba(0, 0, 0, 0.6);
+}
+.pricing_card_description_background {
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    color: var(--main-white);
+}
+.pricing_card_lists {
+    margin-bottom: 50px;
+}
+@media (min-width: 800px) {
+    .pricing_card_lists {
+       margin-bottom: 70px; 
+    }
+}
+.pricing_card_list {
+    line-height: 1.5em;
+    color: rgba(0, 0, 0, 0.6);
+    list-style-type: none;
+    list-style-type: circle;
+}
+.pricing_card_list_background {
+    line-height: 1.5em;
+    color: var(--main-white);
+    list-style-type: circle;
+}
+.pricing_card_button {
+    text-decoration: none;
+    font-size: 16.5px;
+    font-weight: 700;
+    color: var(--main-white);
+    background-color: var(--top-heading-color);
+    border: 1.5px solid var(--top-heading-color);
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+.pricing_card_button:hover {
+    background-color: var(--main-blue);
+    border: 1.5px solid var(--main-blue);
+}
+/* Modal */
+#pricing_card {
+  cursor: pointer;
+  transition: 0.3s;
+}
+#pricing_card:hover {
+    opacity: 0.7;
+}
+.pricing_cards_modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.pricing_card_modal {
+    background-color: var(--main-white);
+    text-align: left;
+    width: 350px;
+    height: 400px;
+    margin: 20px;
+    padding-left: 30px;
+    margin: auto;
+}
+.pricing_card_background_modal {
+    background: url("../img/background_pricing.jpg");
+    width: 350px;
+    height: 400px;
+    margin: 20px;
+    text-align: left;
+    padding-left: 30px;
+    margin: auto;
+    color: var(--main-white);
+}

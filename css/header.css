@@ -1,10 +1,9 @@
 .header {
     background: url("../img/background_img.png");
     background-repeat: no-repeat;
-    background-position-x: 50% 50%;
+    background-position: 50%;
     background-size: cover;
     min-height: 100%;
-    position: relative;
 }
 .header_subheader {
     display: flex;
@@ -87,14 +86,15 @@
     font-weight: 500;
     padding: 5px;
 }
-@media (min-width: 400px){
+@media (min-width: 600px){
     .subheader_navigation_list {
-        font-size: inherit;
+        font-size: 0.8em;
     }
 }
 @media (min-width: 900px){
     .subheader_navigation_list {
         padding: 0px 15px;
+        font-size: inherit;
     }
 }
 .subheader_navigation_list:hover {
@@ -133,8 +133,7 @@
 .subheader_text {
     font-size: 10px;
     font-weight: 700;
-    margin-top: 70px;
-    margin-bottom: 10px;
+    margin-top: 20px;
 }
 @media (min-width: 400px) {
     .subheader_main_text {
@@ -160,7 +159,7 @@
         margin-right: 10%;
     }
     .subheader_text {
-    margin-top: 40px;
+    margin-top: 30px;
     }
 }
 .blue_text {
@@ -168,25 +167,24 @@
 }
 .header_title {
     color: var(--top-heading-color);
-    font-size: 80px;
+    font-size: 70px;
     line-height: 0.9em;
     font-family: "Barlow Condensed", sans-serif;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 @media (min-width: 400px) {
     .header_title {
-        font-size: 110px;
+        font-size: 100px;
     }
 }
 @media (min-width: 600px) {
     .header_title {
-        font-size: 120px;
-        margin-bottom: 30px;
+        font-size: 110px;
     }
 }
 @media (min-width: 800px) {
     .header_title {
-        font-size: 150px;
+        font-size: 140px;
     }
 }
 .header_menu_btn {

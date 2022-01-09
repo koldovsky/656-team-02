@@ -4,17 +4,10 @@
     background-color:rgb(255, 255, 255);
     background-size: cover;
     flex-direction: column;
-    max-width: 100%;
-    min-width: 20%;
-}
-
-.maps-section{
-    height: 100%;
-    width: 100%;
 }
 
 .main_contacts-bacground{
-    display: flex;
+    
     background-image: url(../img/background_flop.jpg);
     flex-direction: column;
     vertical-align: baseline;
@@ -23,7 +16,7 @@
 
 .main_contacts{ 
     background-color: rgb(255, 255, 255);
-    margin: auto;
+    margin: 120px 120px;
     }
 .fastcar{
     font-size: 14px;
@@ -92,17 +85,16 @@
 
 @media (min-width: 4px) {
     .social_icons_contacts {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 30%;
+        margin-right: 30%;
     }
 }
 .subheader_social_icon{
-    margin-left: 5px;
-    margin-right: 5px;
+    
     margin-bottom: 20px;
 }
 .main-buttom-car{
-    margin-bottom: 30px;
+    
 }
 .buttom-car {
     color: var(--main-white);
@@ -112,10 +104,15 @@
     border-radius: 30px;
     margin-top: 30px;
     border-radius: 30px;
-    margin-left: 20%;
-    margin-right: 10%;
     text-align: center;
     text-decoration: none;
+    font-size: 16,5px;
+    font-weight: 700;
+    color: #fff;
+    font-stretch: 100%;
+    width: 170px;
+    margin: auto;
+    }
 }
 .buttom-car-rent{
     color: var(--main-white);

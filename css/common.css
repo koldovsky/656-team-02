@@ -12,7 +12,12 @@
   --main-blue: rgb(16, 136, 228);
   --main-white: rgb(255, 255, 255);
   --main-black: rgb(34, 34, 34);
-  --main-gray: rgb(137, 137, 137); /* text description*/
+  --main-gray: rgb(137, 137, 137);
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+body {
+  overflow-x: hidden;
 }
 img {
   display: block;
