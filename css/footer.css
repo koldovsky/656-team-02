@@ -26,7 +26,7 @@
 .footer__nav-bar {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   flex-wrap: nowrap;
   width: 50vw;
 }
@@ -55,6 +55,12 @@
   font-weight: 700;
   letter-spacing: 1.4px;
   line-height: 22.4px;
+}
+.footer-clock {
+  color: gray;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Ubuntu", sans-serif;
 }
 @media (max-width: 1024px) {
   .footer__nav-bar {
